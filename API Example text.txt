@@ -1,0 +1,63 @@
+API Example text
+
+}
+	"studentID": 435,
+	"studentName": "Jane Doe",
+	"dateOfBirth": "5/24/92",
+	"gradePointAverage": 3.56,
+	"classes": {
+		"Algebra",
+		"English",
+		},
+}
+	/or/
+{
+	"student": {
+		"Name": "Angela Smith,"
+		"Age": 15,
+		"GradePointAverage": 3.25,
+		"MajorAreasOfStudy": ["Physics", "Computer Science"]
+		}
+}
+There are six value types in JavaScript:
+
+1. Strings (data that represent text or a series of text)
+
+2. Numbers
+
+3. Booleans (true or false statements)
+
+4. Objects (things with state and behavior)
+
+5. Functions (a block of organized, reusable computer code used to perform a single, related action—also called a subprogram or subroutine)
+
+6. Values that are undefined
+
+Function Example
+
+<html>
+<body>
+	<button onclick="My_First_Function ()">
+		Click Me!
+	</button>
+	<p id="Irish"></p>
+<script>
+	function My_First_Function() {
+		var String = "Kiss me, I'm Irish!";
+		var result = String.fontcolor("green");
+		document.getElementById("Irish").innerHTML =
+		result;
+	}
+</script>
+</body>
+</html>
+
+ordered
+<ol>
+	<li>
+</ol>
+
+unordered
+<ul>
+	<li>
+</ul>
