@@ -1,0 +1,15 @@
+table {
+	border: 2px solid DarkOrchid;
+}
+td:hover {
+	background-color: DarkTurquoise;
+	color: DarkGoldenRod;
+}
+tr, th {
+	background-color: Crimson;
+	color: Aqua;
+}
+tr, td {
+	background-color: HotPink;
+	color: Indigo;
+}
